@@ -1,0 +1,6 @@
+torch
+torchvision
+ipykernel
+matplotlib
+pandas
+scikit-learn
