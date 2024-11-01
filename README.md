@@ -26,8 +26,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. download dataset and place inside 'data' folder
-<href>https://www.kaggle.com/datasets/nikitarom/planets-dataset/data</href>
+4. download dataset and place inside 'data' folder: </br>
+   <href>https://www.kaggle.com/datasets/nikitarom/planets-dataset/data</href>
 
 5. run ipynb notebook
-
