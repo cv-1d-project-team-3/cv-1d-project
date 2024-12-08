@@ -1,5 +1,35 @@
 Normal_df_ResNet50_5epochs_1e-4_ADAM.pth
-- 0.24 threshold -> (0.9010441498580961, 0.11198144787720041)
+- 0.24 threshold -> (0.9461634069757892, tensor(0.0595, device='cuda:0'))
+- 0.26 threhsold -> (0.9456343944353581, tensor(0.0595, device='cuda:0'))
+- 0.27 threhsold -> (0.9450952084587135, tensor(0.0595, device='cuda:0'))
+- 0.30 threhsold -> (0.9440631346750675, tensor(0.0595, device='cuda:0'))
+- 0.35 threhsold -> (0.9422830057252284, tensor(0.0595, device='cuda:0'))
+Normal_df_ResNet50_5epochs_1e-4_ADAM_Focal_loss_0.25alpha_2gamma.pth
+- 0.24 threshold -> (0.9008443530313707, tensor(0.0123, device='cuda:0'))
+- 0.25 threshold -> (0.9459581389838361, tensor(0.0067, device='cuda:0'))
+- 0.275 threshold -> (0.9471893381478392, tensor(0.0067, device='cuda:0'))
+- 0.30 threshold -> (0.9473477843357898, tensor(0.0067, device='cuda:0'))
+- 0.325 threhsold -> (0.9442584337289626, tensor(0.0067, device='cuda:0'))
+- 0.35 threshold -> (0.9382908226868615, tensor(0.0067, device='cuda:0'))
+- 0.40 threshold -> (0.9237745387257781, tensor(0.0067, device='cuda:0'))
+Normal_df_ResNet50_5epochs_1e-4_ADAM_HammingLoss.pth
+- 0.50 threhsold -> (0.6401052157515638, tensor(0.0589, device='cuda:0'))
+- 0.501 threshold -> (0.8569064437025375, tensor(0.0589, device='cuda:0'))
+- 0.502 threshold -> (0.8694449274177886, tensor(0.0589, device='cuda:0'))
+- 0.505 threhsold -> (0.8730495026186943, tensor(0.0589, device='cuda:0'))
+- 0.51 threshold -> (0.872463333570168, tensor(0.0589, device='cuda:0'))
+- 0.52 threshold -> (0.8712739507515963, tensor(0.0589, device='cuda:0'))
+- 0.525 threhsold -> (0.8707995133208563, tensor(0.0589, device='cuda:0'))
+- 0.55 threshold -> (0.8657022669153204, tensor(0.0589, device='cuda:0'))
+- 0.60 threshold -> (0.8577087922329819, tensor(0.0589, device='cuda:0'))
+- 0.65 threshold -> (0.8494734985538888, tensor(0.0589, device='cuda:0'))
+Normal_df_ResNet50_5epochs_1e-4_ADAM_WeightedBCELoss.pth
+- 0.50 threhsold -> (0.7251874665619527, tensor(1.4101, device='cuda:0'))
+- 0.55 threshold -> (0.8000077075274483, tensor(1.4101, device='cuda:0'))
+- 0.60 threshold -> (0.814986700126245, tensor(1.4101, device='cuda:0'))
+- 0.65 threshold -> (0.756450236403312, tensor(1.4101, device='cuda:0'))
+- 0.70 threshold -> (0.6323918405381179, tensor(1.4101, device='cuda:0'))
+
 LP_oversampled_ResNet50_0.5epochs_1e-4_ADAM.pth
 - 0.24 threshold -> (0.9507812770955165, 0.06397170507396928)
 ML_undersampled_ResNet50_5epochs_1e-4_ADAM.pth
@@ -12,3 +42,10 @@ ML_oversampled_augmented_ResNet50_5epochs_1e-4_ADAM.pth
 - 0.17 threshold -> (0.9402919156345966, 0.06271543505688092)
 - 0.16 threshold -> (0.9403994710816244, 0.06271543505688092)
 - 0.15 threshold -> (0.9400317165878752, 0.06271543505688092)
+REMEDIAL_df_ResNet50_3.5epochs_1e-4_ADAM.pth
+- 0.14 threhsold -> 0.9248526374026336
+- 0.15 threhsold -> 0.9247666619081859
+- 0.16 threshold -> (0.9234514180549113, tensor(0.1144, device='cuda:0'))
+- 0.20 threshold -> (0.9179615866360915, tensor(0.1144, device='cuda:0'))
+- 0.24 threshold -> (0.908177443095313, 0.12011343173741587)
+- 0.30 threshold -> (0.8945888263138372, tensor(0.1144, device='cuda:0'))
