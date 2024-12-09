@@ -4,3 +4,4 @@ output/
 .DS_Store
 LP_oversampled_ResNet50_0.5epochs_1e-4_ADAM.pth
 ML_oversampled_augmented_ResNet50_5epochs_1e-4_ADAM.pth
+LP_OS_ML_OS_ResNet50.pth
